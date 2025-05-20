@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Bobo's Script Hub",
+   Name = "Bobo Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Ima Eat Your Butt",
    LoadingSubtitle = "Message From Bobo",
@@ -2075,5 +2075,49 @@ STDTab:CreateButton({
     Name = "FastDex",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/decentholograms/StudTowerDefense-Script/refs/heads/main/ScriptStudTD.lua", true))()
+    end
+})
+
+local GAGTab = Window:CreateTab("Grow A Garden", 4483362458) -- Title, Image
+
+GAGTab:CreateButton({
+    Name = "MERCENARIES",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kosowa/asd/refs/heads/main/GaG.lua"))()
+    end
+})
+
+GAGTab:CreateButton({
+    Name = "nootmaus",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nootmaus/GrowAAGarden/refs/heads/main/mauscripts"))("t.me/rbxscript_robot")
+    end
+})
+
+GAGTab:CreateButton({
+    Name = "Speed Hub X",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+GAGTab:CreateButton({
+    Name = "Doggo Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/doggoman230/growagarden/refs/heads/main/script"))()
+    end
+})
+
+GAGTab:CreateButton({
+    Name = "Tbao Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubGrowGarden"))()
+    end
+})
+
+GAGTab:CreateButton({
+    Name = "ZhangJunZ84",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/growagarden.lua"))()
     end
 })
